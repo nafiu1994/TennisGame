@@ -15,14 +15,16 @@ public class Tennis {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        SplashScreen s = new SplashScreen();
+        /*SplashScreen s = new SplashScreen();
         s.setVisible(true);
         try {
             Thread.sleep(7500);
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-        s.stop();
+        s.stop();*/
+        Window wn = new Window(1000, 720);
+        wn.Home();
     }
     
 }
